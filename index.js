@@ -9,37 +9,43 @@ function promptUser() {
     {
       type: "input",
       name: "username",
-      message: "What is your Github Username"
+      message: "What is your Github Username?"
     },
     {
       type: "input",
       name: "email",
-      message: "What is your email address"
+      message: "What is your email address?"
     },
     {
       type: "input",
       name: "project",
-      message: "What is your project's name"
+      message: "What is your project's name?"
     },
     {
       type: "input",
       name: "description",
-      message: "Please write a short description of your project"
+      message: "Please write a short description of your project?"
     },
     {
-      type: "input",
+      type: "checkbox",
       name: "license",
-      message: "What kind of license should your project have"
+      choices: ['Apache License 2.0', 'GNU LGPLv3', 'GNU AGPLv3', 'MIT License'],
+      message: "What kind of license should your project have?"
     },
     {
       type: "input",
       name: "contributors",
-      message: "Who is Contributing"
+      message: "Who is Contributing?"
     },
     {
       type: "input",
       name: "test",
-      message: "What are you testing"
+      message: "What tests did you run?"
+    },
+    {
+      type: "input",
+      name: "comment",
+      message: "Is there anything you want a user to know before running your project?"
     },
     {
       type: "input",
@@ -51,35 +57,51 @@ function promptUser() {
 
 function generateReadMe(answers) {
   return `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Hi! My name is ${answers.name}</h1>
-    <p class="lead">I am from ${answers.location}.</p>
-    <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
-    <ul class="list-group">
-      <li class="list-group-item">My GitHub username is ${answers.github}</li>
-      <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
-    </ul>
-  </div>
-</div>
-</body>
-</html>`;
+
+ # ${answers.project.toUpperCase()}
+
+ # TABLE OF CONTENTS:
+ #USER INFO
+ #CONTRIBUTORS
+ #PROJECT DESCRIPTION
+ #LICENSE
+ #TESTING
+ #COMMENTS
+ #QUESTIONS
+
+ 
+ # USER INFO
+  USERNAME: ${answers.username.toUpperCase()}
+  USER EMAIL: ${answers.email}
+
+ # CONTRIBUTORS:
+ ${answers.contributors}
+
+
+ # PROJECT DESCRIPTION:
+ ${answers.description}
+
+ # LICENSE:
+ ${answers.license}
+
+ # TESTING:
+ ${answers.test}
+
+ # COMMENTS:
+ ${answer.comment}
+
+ # QUESTIONS:
+ ${answers.questions}
+
+
+ `;
 }
 
 promptUser()
   .then(function(answers) {
-    const html = generateHTML(answers);
+    const readMe = generateReadMe(answers);
 
-    return writeFileAsync("index.html", html);
+    return writeFileAsync("README.md", readMe);
   })
   .then(function() {
     console.log("Successfully wrote to index.html");

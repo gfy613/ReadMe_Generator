@@ -1,1 +1,35 @@
-# ReadMe_Generator
+
+
+ # PROJECT
+
+ TABLE OF CONTENTS:
+ #USER INFO
+ #CONTRIBUTORS
+ #PROJECT DESCRIPTION
+ #LICENSE
+ #TESTING
+ #QUESTIONS
+
+ 
+ #USER INFO
+  USERNAME: GAINES
+  USER EMAIL: email
+
+ #CONTRIBUTORS:
+ me
+
+
+ #PROJECT DESCRIPTION:
+ Description
+
+ #LICENSE:
+ Apache License 2.0
+
+ #TESTING:
+ npm run
+
+ #QUESTIONS:
+ question
+
+
+ 
