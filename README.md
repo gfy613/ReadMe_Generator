@@ -1,35 +1,42 @@
 
 
- # PROJECT
+ # PROJECT 1
 
- TABLE OF CONTENTS:
- #USER INFO
- #CONTRIBUTORS
- #PROJECT DESCRIPTION
- #LICENSE
- #TESTING
- #QUESTIONS
+
+ #TABLE OF CONTENTS:
+ * [USER INFO](#USERINFO)
+ * [CONTRIBUTORS](#CONTRIBUTORS)
+ * [PROJECT DESCRIPTION](#PROJECT DESCRIPTION)
+ * [LICENSE](#LICENSE)
+ * [TESTING](#TESTING)
+ * [COMMENTS](#COMMENTS)
+ * [QUESTIONS](#QUESTIONS)
 
  
- #USER INFO
-  USERNAME: GAINES
-  USER EMAIL: email
+ # USER INFO
+  USERNAME: GFY613
+  USER EMAIL: gfy613
 
- #CONTRIBUTORS:
+ # CONTRIBUTORS:
  me
 
 
- #PROJECT DESCRIPTION:
- Description
+ # PROJECT DESCRIPTION:
+ fdksfaj
 
- #LICENSE:
+ # LICENSE:
  Apache License 2.0
 
- #TESTING:
- npm run
+ # TESTING:
+ tests
 
- #QUESTIONS:
- question
+ # COMMENTS:
+ fksdajs
+
+ # QUESTIONS:
+ fkldsjfkldsa
+
+![badmath](https://img.shields.io/github/languages/top/gfy613/code_quiz)
 
 
  

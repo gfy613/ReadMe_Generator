@@ -60,14 +60,15 @@ function generateReadMe(answers) {
 
  # ${answers.project.toUpperCase()}
 
- # TABLE OF CONTENTS:
- #USER INFO
- #CONTRIBUTORS
- #PROJECT DESCRIPTION
- #LICENSE
- #TESTING
- #COMMENTS
- #QUESTIONS
+
+ #TABLE OF CONTENTS:
+ * [USER INFO](#USERINFO)
+ * [CONTRIBUTORS](#CONTRIBUTORS)
+ * [PROJECT DESCRIPTION](#PROJECTDESCRIPTION)
+ * [LICENSE](#LICENSE)
+ * [TESTING](#TESTING)
+ * [COMMENTS](#COMMENTS)
+ * [QUESTIONS](#QUESTIONS)
 
  
  # USER INFO
@@ -88,10 +89,12 @@ function generateReadMe(answers) {
  ${answers.test}
 
  # COMMENTS:
- ${answer.comment}
+ ${answers.comment}
 
  # QUESTIONS:
  ${answers.questions}
+
+![badmath](https://img.shields.io/github/languages/top/gfy613/code_quiz)
 
 
  `;
