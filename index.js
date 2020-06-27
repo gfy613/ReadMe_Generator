@@ -59,7 +59,7 @@ function generateReadMe(answers) {
   return `
 
  # ${answers.project.toUpperCase()}
-
+ ![badmath](https://img.shields.io/github/languages/top/gfy613/ReadMe_Generator)
 
  ## TABLE OF CONTENTS:
  * [USER INFO](#USERINFO)
@@ -93,8 +93,6 @@ function generateReadMe(answers) {
 
  ## QUESTIONS:
  ${answers.questions}
-
-![badmath](https://img.shields.io/github/languages/top/gfy613/code_quiz)
 
 
  `;

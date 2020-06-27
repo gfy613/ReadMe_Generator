@@ -1,9 +1,9 @@
 
 
- # PROJECT 1
+ # README GENERATOR
+ ![badmath](https://img.shields.io/github/languages/top/gfy613/ReadMe_Generator)
 
-
- # TABLE OF CONTENTS:
+ ## TABLE OF CONTENTS:
  * [USER INFO](#USERINFO)
  * [CONTRIBUTORS](#CONTRIBUTORS)
  * [PROJECT DESCRIPTION](#PROJECTDESCRIPTION)
@@ -13,30 +13,28 @@
  * [QUESTIONS](#QUESTIONS)
 
  
- # USER INFO
+ ## USER INFO
   USERNAME: GFY613
   USER EMAIL: gfy613@gmail.com
 
- # CONTRIBUTORS:
+ ## CONTRIBUTORS:
  Myself
 
 
- # PROJECT DESCRIPTION:
- fdkslfjka
+ ## PROJECT DESCRIPTION:
+ Creates a ReadMe file for a git hub repo.
 
- # LICENSE:
- Apache License 2.0
+ ## LICENSE:
+ MIT License
 
- # TESTING:
- npm test
+ ## TESTING:
+ none
 
- # COMMENTS:
- 
+ ## COMMENTS:
+ To run the project open a terminal and run node index.js
 
- # QUESTIONS:
- 
-
-![badmath](https://img.shields.io/github/languages/top/gfy613/code_quiz)
+ ## QUESTIONS:
+ No
 
 
  
