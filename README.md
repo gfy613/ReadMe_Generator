@@ -28,7 +28,7 @@
  MIT License
 
  ## TESTING:
- none
+ None
 
  ## COMMENTS:
  To run the project open a terminal and run node index.js
