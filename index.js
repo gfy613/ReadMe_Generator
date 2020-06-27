@@ -61,7 +61,7 @@ function generateReadMe(answers) {
  # ${answers.project.toUpperCase()}
 
 
- #TABLE OF CONTENTS:
+ ## TABLE OF CONTENTS:
  * [USER INFO](#USERINFO)
  * [CONTRIBUTORS](#CONTRIBUTORS)
  * [PROJECT DESCRIPTION](#PROJECTDESCRIPTION)
@@ -71,27 +71,27 @@ function generateReadMe(answers) {
  * [QUESTIONS](#QUESTIONS)
 
  
- # USER INFO
+ ## USER INFO
   USERNAME: ${answers.username.toUpperCase()}
   USER EMAIL: ${answers.email}
 
- # CONTRIBUTORS:
+ ## CONTRIBUTORS:
  ${answers.contributors}
 
 
- # PROJECT DESCRIPTION:
+ ## PROJECT DESCRIPTION:
  ${answers.description}
 
- # LICENSE:
+ ## LICENSE:
  ${answers.license}
 
- # TESTING:
+ ## TESTING:
  ${answers.test}
 
- # COMMENTS:
+ ## COMMENTS:
  ${answers.comment}
 
- # QUESTIONS:
+ ## QUESTIONS:
  ${answers.questions}
 
 ![badmath](https://img.shields.io/github/languages/top/gfy613/code_quiz)
@@ -107,7 +107,7 @@ promptUser()
     return writeFileAsync("README.md", readMe);
   })
   .then(function() {
-    console.log("Successfully wrote to index.html");
+    console.log("Successfully wrote to readMe.md");
   })
   .catch(function(err) {
     console.log(err);

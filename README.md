@@ -3,10 +3,10 @@
  # PROJECT 1
 
 
- #TABLE OF CONTENTS:
+ # TABLE OF CONTENTS:
  * [USER INFO](#USERINFO)
  * [CONTRIBUTORS](#CONTRIBUTORS)
- * [PROJECT DESCRIPTION](#PROJECT DESCRIPTION)
+ * [PROJECT DESCRIPTION](#PROJECTDESCRIPTION)
  * [LICENSE](#LICENSE)
  * [TESTING](#TESTING)
  * [COMMENTS](#COMMENTS)
@@ -15,26 +15,26 @@
  
  # USER INFO
   USERNAME: GFY613
-  USER EMAIL: gfy613
+  USER EMAIL: gfy613@gmail.com
 
  # CONTRIBUTORS:
- me
+ Myself
 
 
  # PROJECT DESCRIPTION:
- fdksfaj
+ fdkslfjka
 
  # LICENSE:
  Apache License 2.0
 
  # TESTING:
- tests
+ npm test
 
  # COMMENTS:
- fksdajs
+ 
 
  # QUESTIONS:
- fkldsjfkldsa
+ 
 
 ![badmath](https://img.shields.io/github/languages/top/gfy613/code_quiz)
 
